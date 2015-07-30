@@ -1,0 +1,5 @@
+javac -classpath ./lib/junit-4.11.jar *.java
+
+java -classpath ./lib/junit-4.11.jar:. RelevantSnippet -debug
+
+java -classpath ./lib/junit-4.11.jar:. RelevantSnippetTest

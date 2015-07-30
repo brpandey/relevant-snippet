@@ -1,0 +1,445 @@
+$ java -classpath ./lib/junit-4.11.jar:. RelevantSnippetTest
+
+Testing Highlight Doc with Query 1
+
+doc: Service here was great. We had a fabulous and friendly waiter. We
+tried the Classic, Mediterranean Chicken, Vegetable, and Little Star deep
+dish pizzas. The Little Star was the best followed by the Classic. The pizza
+was good but I honestly preferred the BBQ Chicken deep dish pizza I had
+at Patxi's in Hayes Valley. However the atmosphere and service at Little
+Star's was much better. Also the ice cream from the local creamery in the
+Mission (I wish we had heard which one it was) was delicious.
+
+query: deep dish pizza
+
+snippet 1 is: The [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]] was good but I
+honestly preferred the BBQ Chicken [[HIGHLIGHT]]deep dish
+pizza[[ENDHIGHLIGHT]] I had at Patxi's in Hayes Valley.
+
+
+doc: This is by far the best Pizza I ever had. There is a variety of gourmet
+beer and fine wine for a reasonable pizza. Try the deep Dish pizza and
+customize it with your toppings of choice. Bon Apetite. 
+
+query: deep dish pizza
+
+snippet 2 is: This is by far the best [[HIGHLIGHT]]Pizza[[ENDHIGHLIGHT]]
+I ever had. There is a variety of gourmet beer and fine wine for a
+reasonable [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]]. Try the
+[[HIGHLIGHT]]deep Dish pizza[[ENDHIGHLIGHT]] and customize it with
+your toppings of choice.
+
+doc: The deep dish pizza here is amazing! When I order deep dish pizza at
+other places I usually have to wait 30-45 mins... But no here we got our
+pizza in about 20. How awesome! 
+
+query: deep dish pizza
+
+snippet 3 is: The [[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]] here is
+amazing! When I order [[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]]
+at other places I usually have to wait 30-45 mins.
+
+doc: A great place to go for deep dish pizza. query: deep dish pizza
+
+snippet 4 is: A great place to go for [[HIGHLIGHT]]deep dish
+pizza[[ENDHIGHLIGHT]].
+
+
+doc: Best Deep Dish pizza I will ever try in my life. The cornmeal crust was
+AMAZING. For every 2 people I would get a 12". Expect a line. 
+
+query: deep dish pizza
+
+snippet 5 is: Best [[HIGHLIGHT]]Deep Dish pizza[[ENDHIGHLIGHT]] I will
+ever try in my life.
+
+
+doc: When I have a (rare) craving for deep dish pizza, Little Steezy is it.
+Love that cornmeal-dusted crust and juicy sausage filling. Wings are
+yummy too. In the great deep dish pizza rivalry between Zachary's and
+Little Star, I go with the upstart. 
+
+query: deep dish pizza
+
+snippet 6 is: When I have a (rare) craving for [[HIGHLIGHT]]deep dish
+pizza[[ENDHIGHLIGHT]], Little Steezy is it.
+
+
+doc: Best deep dish pizza and probably my favorite pizza in SF next to
+Golden Boy. In my opinion I think that little star even has zach's in
+Berkeley beat. Delicious! 
+
+query: deep dish pizza
+
+snippet 7 is: Best [[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]] and
+probably my favorite [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]] in SF next to
+Golden Boy.
+
+
+doc: Awesome deep dish pizza. The crust is the best. I'm usually a fan of
+the thin crust, but if I am in the mood for deep dish, this is where it is. A
+must visit Mission spot. 
+
+query: deep dish pizza
+
+snippet 8 is: Awesome [[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]].
+
+
+doc: I must say, I was never a fan of the thick or deep dish
+pizzas...HOWEVER, after my sister took me to Little Star, I changed my
+mind completely. I LOVE, absolutely LOVE their deep dish pizzas. I tried
+all the vegetable deep dish specialties (my sister is a vegetarian) and I was
+amazed! The crust is so flaky and is juicy in its buttery goodness and I
+REALLY RECOMMEND this place for all you pizza lovers as well as
+hesitant deep dish pizza eaters out there. lesson learned: DON'T HATE IT
+UNTIL YOU TRY IT! =) Note: The cheesecake is delicious too!
+
+query: deep dish pizza
+
+snippet 9 is: I LOVE, absolutely LOVE their [[HIGHLIGHT]]deep dish
+pizza[[ENDHIGHLIGHT]]s. I tried all the vegetable
+[[HIGHLIGHT]]deep[[ENDHIGHLIGHT]]
+[[HIGHLIGHT]]dish[[ENDHIGHLIGHT]] specialties (my sister is a
+vegetarian) and I was amazed! The crust is so flaky and is juicy in its
+buttery goodness and I REALLY RECOMMEND this place for all you
+[[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]] lovers as well as hesitant
+[[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]] eaters out there.
+
+
+doc: Yup, this beats Zachary's. I was quite doubtful and thought it would be
+overrated, but it is indeed wonderful. I bought take-out, but definitely want
+to eat in the restaurant some time. The ambience is super nice, kinda
+romantic and dimly lit. I ordered the "little star pizza" and split it with my
+friend for $20. Here's how it differs from Zachary's. 1) The crust here is
+more like pizza crust, less like flaky pie crust. It tastes better. 2) Zachary's
+pizzas are very tomato-heavy, which is great if you love tomato, but I prefer
+to have more other toppings on my pizza. Little Star puts a LOT of toppings
+but still gives that right amount of tomatoes for a deep dish pizza.
+
+query: deep dish pizza
+
+snippet 10 is: 2) Zachary's [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]]s are
+very tomato-heavy, which is great if you love tomato, but I prefer to have
+more other toppings on my [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]]. Little
+Star puts a LOT of toppings but still gives that right amount of tomatoes for
+a [[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]].
+
+
+doc: I was at my aunt's place which was a few blocks away so my dad and
+I decided to walk here for dinner on a Friday night. I didn't see a whole lot
+of parking on the street so that could be an issue for anybody not walking.
+It took a couple of minutes before anybody noticed us at the door. There
+were a lot of people here and at the bar. The lighting gradually got darker
+was we approached the back where our table was. There were candles at
+each table so at least there was some kind of lighting to read the menu.
+Our waiter told us a 9 inch pizza would be enough for two people and if it
+were two hungry people, then an appetizer would be enough in addition to
+the 9 inch deep dish pizza. We ordered two Blue Paddle Pilsner ($4.75
+each), the Spicy Chicken Wings ($11), and a 9 inch pizza that had half with
+the Mediterranean Chicken ($19.75 for 9 inch and $25.50 for 12 inch) and
+the other half with the Classic ($19.50 for 9 inch and $25 for 12 inch). We
+felt that should be enough for both of us. The Spicy Chicken Wings came
+out first and there were 10 pieces. It was pretty tasty and good. I didn't
+think it was spicy, but it was pretty hot temperature-wise. I nearly burned
+my fingers trying to hold it, but I also don't have callus on my fingertips
+since I haven't played guitar for a long time. The pizza came later (maybe
+30 minutes after we ordered) and it looked like one topping for the whole
+pizza but it wasn't. The side with the Mediterranean Chicken was good as
+well as the side with the Classic. When the pizza was hot, then it tasted
+good; however, as it got cooler, the pizza's taste went
+down as well. The Blue Paddle Pilsner was not bad and I wouldn't have
+known what else to order since the selection on tap was limited to beer I've
+never drank before. Overall, pretty good food and I would recommend
+trying their deep dish pizzas. 
+
+query: deep dish pizza
+
+snippet 11 is: Our waiter told us a 9 inch
+[[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]] would be enough for two people
+and if it were two hungry people, then an appetizer would be enough in
+addition to the 9 inch [[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]].
+
+
+doc: There's something profoundly special about a pizza you have to eat
+with a knife and fork. I've had a few of these Chicago deep-dish types now,
+from different places, several times each, and Little Star is just the best. I
+almost always get the small Little Star with artichoke hearts as an add-on.
+Lemme tell you bout this pizza. Usually I think tomato sauce completely
+take-it-or-leave-it, but this one really tastes like crushed tomatoes and is
+never too acidic. The spinach is fresh, the mushrooms savory, the top layer
+of ricotta is pleasantly creamy while the bottom layer of mozzarella is
+satisfyingly stretchy. I love that the artichoke hearts they use aren't over-
+marinated and tangy, and preserve the real flavor of the vegetable. And the
+crust. I always save it for last, savoring it like a dessert. This rich cornmeal
+crust is perfectly crispy like a cornbread muffin top. Eating it is like visiting
+the southern grandmother I don't have, going back to some roots that
+aren't mine, but still being enveloped in the warm embrace of home
+cooking. If it seems like I don't want my crusts, you are wrong. I want those
+to be the last flavor I enjoy so I can feel that sheer happiness as long as
+possible. 
+
+query: deep dish pizza
+
+snippet 12 is: There's something profoundly special about a
+[[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]] you have to eat with a knife and
+fork. I've had a few of these Chicago
+[[HIGHLIGHT]]deep[[ENDHIGHLIGHT]]-
+[[HIGHLIGHT]]dish[[ENDHIGHLIGHT]] types now, from different places,
+several times each, and Little Star is just the best.
+
+
+doc: I dream about the day I am united with Little Star Pizza once again. If I
+were Superman, Little Star Pizza would be my kryptonite. I would live out
+my last days in the Fortress of Solitude happily munching on their deep
+dish pizza and guzzling some beer and that would be my life. Luckily, I live
+across the coast so my road to obesity has been side tracked...for now. I
+could wax poetic all day about their thick buttery crust, robust and zesty
+tomato sauce, mozzarella cheese, and Italian sausage. A few tips: + The
+deep dish will fill you up pretty quickly! + Come early, the place can fill up
+quick! + Wear a cave hat with a light attached to it, the atmosphere is
+pretty dark. + Don't plan on going out afterwards.. A siesta should be the
+only thing listed in your social agenda after eating here! Ugh, I've done it
+again. I've made myself hungry writing a RelevantSnippet review. Now to
+satisfy my pangs with lackluster grocery store purchased frozen "Pizzeria
+Uno" brand pizza...
+
+query: deep dish pizza
+
+snippet 13 is: I dream about the day I am united with Little Star
+[[HIGHLIGHT]]Pizza[[ENDHIGHLIGHT]] once again. If I were Superman,
+Little Star [[HIGHLIGHT]]Pizza[[ENDHIGHLIGHT]] would be my kryptonite.
+I would live out my last days in the Fortress of Solitude happily munching
+on their [[HIGHLIGHT]]deep dish pizza[[ENDHIGHLIGHT]] and guzzling
+some beer and that would be my life.
+
+
+doc: the pizza taste good.. but the crust is way better at Paxti's. The crust
+over here is tough and dry. query: deep dish pizza
+
+snippet 14 is: the [[HIGHLIGHT]]pizza[[ENDHIGHLIGHT]] taste good.
+doc: 
+
+query: deep dish pizza
+java.lang.IllegalArgumentException: input parameters too small
+java.lang.IllegalArgumentException: input parameters too small
+at RelevantSnippet.highlight_doc(RelevantSnippet.java:70) at
+RelevantSnippetTest.testHighlight1(RelevantSnippetTest.java:106) at
+RelevantSnippetTest.main(RelevantSnippetTest.java:52)
+snippet 15 is:
+
+
+doc: What a lovely day margaret query: deep dish pizza
+
+snippet 16 is: 
+
+
+
+Testing Highlight Doc with Query 2
+
+
+doc: Service here was great. We had a fabulous and friendly waiter. We
+tried the Classic, Mediterranean Chicken, Vegetable, and Little Star deep
+dish pizzas. The Little Star was the best followed by the Classic. The pizza
+was good but I honestly preferred the BBQ Chicken deep dish pizza I had
+at Patxi's in Hayes Valley. However the atmosphere and service at Little
+Star's was much better. Also the ice cream from the local creamery in the
+Mission (I wish we had heard which one it was) was delicious.
+
+query: taste 
+
+snippet 1 is:
+
+
+doc: This is by far the best Pizza I ever had. There is a variety of gourmet
+beer and fine wine for a reasonable pizza. Try the deep Dish pizza and
+customize it with your toppings of choice. Bon Apetite. 
+
+query: taste
+
+snippet 2 is:
+
+
+doc: The deep dish pizza here is amazing! When I order deep dish pizza at
+other places I usually have to wait 30-45 mins... But no here we got our
+pizza in about 20. How awesome! 
+
+query: taste
+
+snippet 3 is:
+
+
+doc: A great place to go for deep dish pizza. 
+
+query: taste
+
+snippet 4 is:
+
+
+doc: Best Deep Dish pizza I will ever try in my life. The cornmeal crust was
+AMAZING. For every 2 people I would get a 12". Expect a line. 
+
+query: taste
+
+snippet 5 is:
+
+
+doc: When I have a (rare) craving for deep dish pizza, Little Steezy is it.
+Love that cornmeal-dusted crust and juicy sausage filling. Wings are
+yummy too. In the great deep dish pizza rivalry between Zachary's and
+Little Star, I go with the upstart. 
+
+query: taste
+
+snippet 6 is:
+
+
+doc: Best deep dish pizza and probably my favorite pizza in SF next to
+Golden Boy. In my opinion I think that little star even has zach's in
+Berkeley beat. Delicious! 
+
+query: taste
+
+snippet 7 is:
+
+
+doc: Awesome deep dish pizza. The crust is the best. I'm usually a fan of
+the thin crust, but if I am in the mood for deep dish, this is where it is. A
+must visit Mission spot. 
+
+query: taste
+
+snippet 8 is:
+
+doc: I must say, I was never a fan of the thick or deep dish
+pizzas...HOWEVER, after my sister took me to Little Star, I changed my
+mind completely. I LOVE, absolutely LOVE their deep dish pizzas. I tried
+all the vegetable deep dish specialties (my sister is a vegetarian) and I was
+amazed! The crust is so flaky and is juicy in its buttery goodness and I
+REALLY RECOMMEND this place for all you pizza lovers as well as
+hesitant deep dish pizza eaters out there. lesson learned: DON'T HATE IT
+UNTIL YOU TRY IT! =) Note: The cheesecake is delicious too!
+
+query: taste
+
+snippet 9 is:
+
+
+doc: I dream about the day I am united with Little Star Pizza once again. If I
+were Superman, Little Star Pizza would be my kryptonite. I would live out
+my last days in the Fortress of Solitude happily munching on their deep
+dish pizza and guzzling some beer and that would be my life. Luckily, I live
+across the coast so my road to obesity has been side tracked...for now. I
+could wax poetic all day about their thick buttery crust, robust and zesty
+tomato sauce, mozzarella cheese, and Italian sausage. A few tips: + The
+deep dish will fill you up pretty quickly! + Come early, the place can fill up
+quick! + Wear a cave hat with a light attached to it, the atmosphere is
+pretty dark. + Don't plan on going out afterwards.. A siesta should be the
+only thing listed in your social agenda after eating here! Ugh, I've done it
+again. I've made myself hungry writing a RelevantSnippet review. Now to
+satisfy my pangs with lackluster grocery store purchased frozen "Pizzeria
+Uno" brand pizza...
+
+query: 
+
+taste snippet 10 is:
+
+doc: 
+
+query: taste
+java.lang.IllegalArgumentException: input parameters too small
+java.lang.IllegalArgumentException: input parameters too small
+at RelevantSnippet.highlight_doc(RelevantSnippet.java:70) at
+RelevantSnippetTest.testHighlight2(RelevantSnippetTest.java:147) at
+RelevantSnippetTest.main(RelevantSnippetTest.java:53)
+
+snippet 11 is:
+
+doc: What a lovely day margaret 
+
+query: taste
+
+snippet 12 is:
+
+doc: Yup, this beats Zachary's. I was quite doubtful and thought it would be
+overrated, but it is indeed wonderful. I bought take-out, but definitely want
+to eat in the restaurant some time. The ambience is super nice, kinda
+romantic and dimly lit. I ordered the "little star pizza" and split it with my
+friend for
+$20. Here's how it differs from Zachary's. 1) The crust here is more like
+pizza crust, less like flaky pie crust. It tastes better. 2) Zachary's pizzas are
+very tomato-heavy, which is great if you love tomato, but I prefer to have
+more other toppings on my pizza. Little Star puts a LOT of toppings but still
+gives that right amount of tomatoes for a deep dish pizza.
+
+query: taste
+
+snippet 13 is: It [[HIGHLIGHT]]taste[[ENDHIGHLIGHT]]s better.
+
+
+doc: I was at my aunt's place which was a few blocks away so my dad and
+I decided to walk here for dinner on a Friday night. I didn't see a whole lot
+of parking on the street so that could be an issue for anybody not walking.
+It took a couple of minutes before anybody noticed us at the door. There
+were a lot of people here and at the bar. The lighting gradually got darker
+was we approached the back where our table was. There were candles at
+each table so at least there was some kind of lighting to read the menu.
+Our waiter told us a 9 inch pizza would be enough for two people and if it
+were two hungry people, then an appetizer would be enough in addition to
+the 9 inch deep dish pizza. We ordered two Blue Paddle Pilsner ($4.75
+each), the Spicy Chicken Wings ($11), and a 9 inch pizza that had half with
+the Mediterranean Chicken ($19.75 for 9 inch and $25.50 for 12 inch) and
+the other half with the Classic ($19.50 for 9 inch and $25 for 12 inch). We
+felt that should be enough for both of us. The Spicy Chicken Wings came
+out first and there were 10 pieces. It was pretty tasty and good. I didn't
+think it was spicy, but it was pretty hot temperature-wise. I nearly burned
+my fingers trying to hold it, but I also don't have callus on my fingertips
+since I haven't played guitar for a long time. The pizza came later (maybe
+30 minutes after we ordered) and it looked like one topping for the whole
+pizza but it wasn't. The side with the Mediterranean Chicken was good as
+well as the side with the Classic. When the pizza was hot, then it tasted
+good; however, as it got cooler, the pizza's taste went down as well. The
+Blue Paddle Pilsner was not bad and I wouldn't have known what else to
+order since the selection on tap was limited to beer I've never drank before.
+Overall, pretty good food and I would recommend trying their deep dish
+pizzas.
+
+query: taste
+
+snippet 14 is: When the pizza was hot, then it
+[[HIGHLIGHT]]taste[[ENDHIGHLIGHT]]d good; however, as it got cooler,
+the pizza's [[HIGHLIGHT]]taste[[ENDHIGHLIGHT]] went down as well.
+
+
+doc: There's something profoundly special about a pizza you have to eat
+with a knife and fork. I've had a few of these Chicago deep-dish types now,
+from different places, several times each, and Little Star is just the best. I
+almost always get the small Little Star with artichoke hearts as an add-on.
+Lemme tell you bout this pizza. Usually I think tomato sauce completely
+take-it-or-leave-it, but this one really tastes like crushed tomatoes and is
+never too acidic. The spinach is fresh, the mushrooms savory, the top layer
+of ricotta is pleasantly creamy while the bottom layer of mozzarella is
+satisfyingly stretchy. I love that the artichoke hearts they use aren't over-
+marinated and tangy, and preserve the real flavor of the vegetable. And the
+crust. I always save it for last, savoring it like a dessert. This rich cornmeal
+crust is perfectly crispy like a cornbread muffin top. Eating it is like visiting
+the southern grandmother I don't have, going back to some roots that
+aren't mine, but still being enveloped in the warm embrace of home
+cooking. If it seems like I don't want my crusts, you are wrong. I want those
+to be the last flavor I enjoy so I can feel that sheer happiness as long as
+possible.
+ query: taste
+
+snippet 15 is: Usually I think tomato sauce completely take-it-or-leave-it,
+but this one really [[HIGHLIGHT]]taste[[ENDHIGHLIGHT]]s like crushed
+tomatoes and is never too acidic.
+
+
+doc: the pizza taste good.. but the crust is way better at Paxti's. The crust
+over here is tough and dry. 
+
+query: taste
+
+snippet 16 is: the pizza [[HIGHLIGHT]]taste[[ENDHIGHLIGHT]] good.
+	
+  
+
